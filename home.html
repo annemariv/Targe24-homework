@@ -5,53 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/960_12_col.css">
-    <style>
-        @font-face {
-            font-family: 'QuicksandBook';
-            src: url('fonts/Quicksand_Book-webfont.eot');
-            font-weight: normal;
-            font-style: normal;
-        }
-        body {
-            color: #ffffff;
-            background: #413f3b url("images/bg.jpg");
-            font-size: 90%;
-            margin: 0px;
-            
-        }
-        .header {
-            background-image: url("images/bg-header.jpg");
-            padding: 10px 0px 20px 0px;
-            height: 100px;
-            position: fixed;
-            top: 0px;
-            width: 100%;
-            z-index: 50;
-            align-items: left;
-        }
-        .nav {
-            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
-            padding: 20px 0px 10px 0px;
-        }
-        .content {
-            padding-top: 120px;
-            text-align: center;
-        }
-        p {
-            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
-            text-align: center;
-            padding: 10px
-        }
-        button, a {
-            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
-            border-radius: 4px;
-            padding: 6px 12px;
-            background-color: #b5c1ad;
-            text-decoration: none;
-            font-size: 14px;   
-            color: #413f3b;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="header">
@@ -61,17 +15,23 @@
                 <img src="images/header-triangle.png" alt="" width="116" height="100">
             </div>
             <div class="nav grid_7">
-               <h1>Home</h1>
+                <a href="home.html">home</a> / <a href="news.html">news</a> / <a href="archives.html">archives</a> / <a href="about.html">about</a> / <a href="contact.html">contact</a>
             </div>
         </div>
     </div>
-    <div class="content">
-        <br><br>
-        <img src="images/pic2.jpg" alt="bicycle" width="400" height="250">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-        <br>
-        <button><a href="example.html">Back</a></button>
+    <div class="wrapper">
+        <h1 class="heading">Home</h1>
+        <div class="main-content grid_12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minima minus laudantium fugiat eligendi. Nihil minus iure tenetur impedit iusto? Doloribus placeat esse natus a veniam minus eos cum. Maiores.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minima minus laudantium fugiat eligendi. Nihil minus iure tenetur impedit iusto? Doloribus placeat esse natus a veniam minus eos cum. Maiores.</p>
+                <br><br>
+                <button class="btn"><a class="link" href="example.html">Back</a></button>
+        </div>
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12"><a href="legal-information.html">Legal Information</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="example.html">Copyright &copy; Pedal Faster 2025</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
